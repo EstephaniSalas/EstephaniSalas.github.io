@@ -1,0 +1,1564 @@
+/*FONTS
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'DM Sans', sans-serif;
+   
+    background: linear-gradient(90deg,#91A8D0,#ff7582);
+             background: linear-gradient(90deg,hsl(218, 31%, 41%),#b9535e);
+    background: linear-gradient(90deg,#4d5664,#8c4b52);
+     background: linear-gradient(90deg,#0d0551,#41BFFF);*/
+     @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Cabin&family=DM+Sans:opsz,wght@9..40,600&family=Merriweather+Sans:wght@800&family=Raleway&family=Urbanist:wght@700&display=swap');     
+     html,body, footer {
+        min-height: 100%;
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         background: linear-gradient(90deg,hsl(218, 31%, 41%),#b9535e);
+         scroll-behavior: smooth;
+     } 
+
+
+
+     div.Contenedor_Doble{
+        width: 100%;
+        margin:auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        display: flex;
+     }div.Subcontenedor_Doble1{
+        width: 50%;
+     }div.Subcontenedor_Doble2{
+        width: 50%;
+     }
+     
+    
+
+     div.Contenedor_Triple{
+        width: 95%;
+        margin: auto;
+        display: flex;
+        }div.Subcontenedor1{
+            width: 30%;
+            margin-right: 5%;
+        }
+        div.Subcontenedor2{
+            width: 30%;
+            margin-right: 5%;
+        }
+        div.Subcontenedor1{
+            width: 30%;
+        }
+
+        div.Contenedor_Cuartuple{
+            width: 100%;
+            margin:auto;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            display: flex;
+         }div.Cuartuple1{
+            width: 25%;
+         }div.Cuartuple2{
+            width: 25%;
+        }div.Cuartuple3{
+            width: 25%;
+        }div.Cuartuple4{
+            width: 25%;
+        }
+
+
+    hr.Div_Secciones{
+        width: 90%;
+        margin: 2.5%;
+        margin-bottom: 0;
+    }
+   
+     /*------------------------------------------------------------------------------------------------------------------------------ */
+    /*Barra Menu Principal*/
+     a .Logo{
+        width: 120px;
+        margin-left: 30%;
+        padding: 10px;
+    } 
+    
+    img.Logo{
+        width: 120px;
+        margin-left: 30%;
+        padding: 10px;
+    }
+    
+    img.Logo:hover{
+        scale: 1.1;
+    }
+    
+    
+    nav div.Menu_Principal {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: none;
+        margin: none;
+        position: sticky;
+        top: 0;
+    }
+    
+    
+    ul.Menu_Principal li{
+        display: inline-block;
+        padding: 5px 20px 5px 20px;
+        margin-right: 80px;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+    
+    ul.Menu_Principal li:hover{
+        background: #ff7582;
+        padding: none;
+        margin: none;
+        display: inline-block;
+        padding: 5px 20px 5px 20px;
+        margin-right: 80px;
+        border: none;
+    }
+    
+    
+    a.Menu{
+        color: white;
+        text-decoration: none;
+        font-family: 'Cabin', sans-serif;
+        font-size: 90%;
+    }
+
+/*Portada pag -------------------------------------------------------------*/
+header{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 20px 20px 0 0;
+    padding-top:30px;
+}
+
+div.Portada{
+    width: 95%;
+    margin: auto;
+    background: linear-gradient(90deg,#91A8D0,#ff7582);;
+    border-radius: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    
+    }.TituloPag p{
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-family: 'Bebas Neue', sans-serif;
+        font-size: 120px;
+        margin: 0;
+        padding: 0;
+    }div.TituloPag{
+        margin: 0;
+        padding: 0;
+    }
+
+
+ul.Menu_Secundario{
+    list-style-type: none; /* Elimina la figura de enlistado*/
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.478);
+    border-radius: 0 0 20px 20px;
+    overflow: hidden; 
+    margin: 0;
+    padding: 0;
+}
+
+    li.Menu_Secundario{
+        float: left; /* Hace que se enliste de forma horizontal*/
+    }
+
+    li a.Menu_Secundario{
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+
+    }
+
+    li a.Menu_Secundario:hover{
+        display: block;
+        background-color: #ff7582;
+        color: white;
+        text-align: center;
+        padding: 15px;
+        text-decoration: none;
+        font-family: 'Raleway', sans-serif;
+    }
+
+/*Contenido -------------------------------------------------------------*/
+section{
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    margin-top: 0;
+    border-radius: 0 0 20px 20px;
+    padding-top:30px;
+    
+}
+
+
+
+div.Subtitulo{
+    width: 95%;
+    margin: auto;
+    font-family: 'DM Sans', sans-serif;    font-size: 20px;
+    font-size: 40px;
+    padding-left: 60px;
+    }p.Subtitulo{
+        margin-top: 0;
+        margin-bottom: 0;
+    }.Apellidos{
+        font-size: 30px;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        z-index: 1;
+        top: -10px;
+    }
+
+/* ---- Contenido Seccion quien soy -----------------------------------------------*/
+
+div.Intro_Seccion{
+    width: 90%;
+    margin: auto;
+    }
+    div.Intro_Seccion p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+        padding: 0;
+        margin: 0;
+    }
+
+div.Subcontenedor1{
+    width: 30%;
+    margin: auto;
+    padding: 0;
+    padding-left: 30px;
+    } div.Subcontenedor1 p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+
+div.Subcontenedor2{
+    width: 30%;
+    margin: auto;
+    padding: 0;
+}    
+    img.Estephani2{
+        width: 100%;
+        margin:auto;
+    }
+
+
+div.Subcontenedor3{
+    width: 30%;
+    margin: auto;
+    padding: 0;
+    padding-right: 30px;
+    }div.Subcontenedor3 p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    div.Idiomas{
+        width: 90%;
+        margin: none;
+    }
+    div.Subcontenedor3 p.Idiomas{
+        font-family: 'DM Sans', sans-serif;    font-size: 20px;
+        font-size: 18px;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+
+        div.Español{
+            width: 90%;
+            background-color: #ff7582;
+            border-radius: 10px;
+            margin: auto;
+            display: flex;
+        }
+            div.Idioma_Español{
+                width: 50%;    
+            }div.Idioma_Español p{
+                color: white;
+                font-style: bold;
+                margin: 0;
+                padding: 5px;
+                
+            }
+
+        div.Clasificacion_Español{
+            width: 50%;
+            text-align: right;
+        }div.Clasificacion_Español p{
+            color: white;
+            font-style: bold;
+            margin: 0;
+            padding: 5px;   
+        }
+
+        div.Ingles{
+            width: 90%;
+            background-color: #91A8D0;
+            border-radius: 10px;
+            margin: auto;
+            display: flex;
+            margin-top: 5px;
+        }
+            div.Idioma_Ingles{
+                width: 50%;    
+            }div.Idioma_Ingles p{
+                color: white;
+                font-style: bold;
+                margin: 0;
+                padding: 5px;
+                
+            }
+
+            div.Clasificacion_Ingles{
+                width: 50%;
+                text-align: right;
+            }div.Clasificacion_Ingles p{
+                color: white;
+                font-style: bold;
+                margin: 0;
+                padding: 5px;   
+            }
+
+hr.SobreMi{
+    margin-top: 15px;
+    
+}
+
+div.Contactos{
+    width: 90%;
+    margin: none;
+}div.Subcontenedor3 p.Contactos{
+    font-family: 'DM Sans', sans-serif;    font-size: 20px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+    
+            .footer-right {
+                display: flex;
+                align-items: center;
+              }
+              
+              /* Redes sociales */
+              .footer-social-icons {
+                margin-right: 10px;
+              }
+              
+              .footer-social-icons .social-icon {
+                display: inline-block;
+                margin-right: 10px;
+              }
+              
+              .footer-social-icons img {
+                width: 30px; 
+              }
+
+              .footer-contact .Hablemos{
+                width: 30px; 
+                
+              }
+
+              img.footer-right{
+                width: 4px;
+              }
+              img.SobreMiIconos:hover{
+                scale: 1.1;
+              }
+
+              a.CV{
+                text-align: center;
+                text-decoration: none;
+                color: white;
+                background: linear-gradient(90deg,#91A8D0,#ff7582);
+                font-family: 'Raleway', sans-serif;
+                font-size:  13px;
+                background-color: linear-gradient(90deg,#91A8D0,#ff7582);
+                border-radius: 10px;
+                padding: 7px;
+                padding-left: 15px;
+                padding-right: 15px;
+                margin-left: 10px;}
+                div.footer-contact:hover{
+                    scale: 1.1;
+                }
+
+/* ----Formación academica ----------------------------------------------------------*/
+section#Formacion_Academica{
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+
+.Academica{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    top: -50px;
+}
+
+
+div.Contenedor_Doble_FA{
+    width: 100%;
+    margin:auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+ }div.Subcontenedor_Doble1_FA{
+    width: 40%;
+ }div.Subcontenedor_Doble2_FA{
+    width: 60%;}
+
+
+    /*Contenedor 1 Estudios*/
+    div.Subcontenedor_Doble1_FA p{
+    font-family: 'DM Sans', sans-serif;    font-size: 20px;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    width: 90%;
+    margin: auto;
+    }
+
+        hr.Div{
+            width: 90%;
+            margin: auto;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        a.Escom{
+            width: 90%;
+            margin: auto;
+            color: white;
+            text-decoration: none;
+        }
+
+        div.Escom{
+            background-color: #91A8D0;
+            border-radius: 10px;
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            }div.Escom:hover{
+                background-color: #607ba9;
+                border-radius: 10px;
+                width: 90%;
+                margin: auto;
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;}
+        div.Escom p{
+            width: 90%;
+            margin:auto;
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+            padding-left: 20px;
+        }
+
+        a.Cecyt8{
+            width: 90%;
+            margin: auto;
+            color: white;
+            text-decoration: none;
+        }
+
+        div.Cecyt8{
+            background-color: #ff7582;
+            border-radius: 10px;
+            width: 90%;
+            margin: auto;
+            margin-top: 10px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            
+            }div.Cecyt8:hover{
+                background-color: #c95864;
+                border-radius: 10px;
+                width: 90%;
+                margin: auto;
+                margin-top: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            
+        }div.Cecyt8 p{
+            width: 90%;
+            margin:auto;
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+            }
+    
+        div.Subcontenedor_Doble2_FA p{
+            font-family: 'DM Sans', sans-serif;    font-size: 20px;
+            font-size: 18px;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+            width: 90%;
+            margin: auto;
+        }
+
+        ol.Cursos{
+            list-style: none;
+            margin-top: 10px;
+        }
+        
+        ol.Cursos li.Cursos{
+            counter-increment: contador; /*Aqui definimos el funcionamiento de la función contador*/
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }li.Cursos a{
+            text-decoration: none;
+            color: black;
+        }
+        li.Cursos a:hover{
+            text-decoration: none;
+            color: #ff7582;
+        }
+        ol.Cursos li.Cursos p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+            text-align: justify;
+            width: 90%;
+            margin: auto;
+        }
+        
+        ol.Cursos li.Cursos::before{ /*Defnimos la forma de enlistado*/
+            content: '➤.';
+            color: #ff7582;
+        }
+
+    div.Contenedor_Certificaciones{
+        width: 100%;
+        margin-top: 30px;
+    }
+        div.Certificaciones{
+            width: 95%;
+            margin: auto;
+        }
+        div.Certificaciones p{
+            margin: 0;
+            font-family: 'DM Sans', sans-serif;    font-size: 20px;
+             font-size: 18px;  
+        }
+        hr.Certificados{
+            margin: 0;
+        }
+        div.Coleccion_Certificados{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-evenly; 
+            margin-top: 10px;
+        }div.Certificado_Azul{
+            display: flex;
+            border-radius: 20px;
+            box-shadow: 0 0 5px -2px #000000;
+        }div.Azul{
+            background-color: #91A8D0;
+            width: 20%;
+            border-radius: 20px 0 0 20px;
+        }div.Azul img{
+            width: 80%;
+
+        }div.Text_Azul{
+            width: 80%;
+            padding: 10px;
+            text-align: justify;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }div.Text_Azul p{
+            text-align: justify;
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+        }
+
+/* SECCION SKILLS -------------------------------------------------------------------------------------------------------------------*/
+section#Skills{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+div.Diseño, div.BD{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 0px 1px #ff7582;
+    border-radius: 50px;
+    padding-bottom: 20px;
+    
+    }div.EncabezadoRosa{
+        background-color: #ff7582;
+        border-radius: 50px 50px 0 0;
+    }
+    div.Diseño p, div.BD p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    div.Diseño .TituloDiseño, div.BD .TituloBD{
+        width: 100%;
+        color: white;
+        font-family: 'DM Sans', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        margin: 0;
+        margin-bottom: 0;
+    }
+    div.Softwares{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+div.Lenguajes{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 0px 1px #91A8D0;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}  
+    div.Office{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 0 0px 1px #91A8D0;
+    border-radius: 50px;
+    padding-bottom: 10px;
+    padding-bottom: 20px;
+}div.Lenguajes p, div.Office p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}div.EncabezadoAzul{
+    background-color: #91A8D0;
+    border-radius: 50px 50px 0 0;
+}
+div.Lenguajes .TituloLenguajes, div.Office .TituloOffice{
+    width: 100%;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+
+img.Office, img.Diseño, img.Lenguajes, img.BD{
+    width: 64px;
+    padding: 38%;
+    margin: auto;
+    margin-top: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}img.Picsart, img.Dynamo{
+    width: 62px;
+    height: 40px;
+    
+}
+
+div.Office .Ejemplos{
+    margin-top: 50px;
+}
+
+/* EXPERCIENCIA LABORAL -----------------------------------------*/
+section.ExperienciaLaboral{
+    padding-bottom: 50px;
+}
+
+div.Img_Experiencia_Laboral{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    }
+    img.Experiencia_Laboral{
+        width: 60%;
+        
+    }img.RedQuetzal{
+        width: 20px;
+        padding-right: 10px;
+    }
+
+img.Ubicacion{
+    width: 20px;
+}
+
+div.Trabajo_Actual{
+    width: 80%;
+    margin: auto;
+}div.Trabajo_Actual_Encabezado{
+    display: flex;
+}
+    div.Puesto{
+        background-color: #ff7582;
+        border-radius: 10px 10px 0 0;
+        padding: 5px;
+        width: 60%;
+        margin: auto;
+        margin-bottom: 0;
+        }div.Puesto p{
+            width: 90%;
+            margin: auto;
+            font-family: 'DM Sans', sans-serif;
+            color: white;
+            font-size: 12px;
+            text-align: justify;
+        }
+    div.Fecha{
+        width: 40%;
+        margin: auto;
+        background-color: none;
+        padding: 5px;
+        margin-bottom: 0
+        }div.Fecha p{
+            padding: 0;
+            margin: 0;
+            color: #ff7582;
+            font-family: 'DM Sans', sans-serif;
+            font-size: 12px;
+            text-align: right;
+        }
+
+    div.Trabajo_Actual_Info{
+        border: 1px solid #ff7582;
+        border-radius: 0 10px 10px 10px;
+        padding: 10px;
+    }div.Trabajo_Actual_Info p{
+        font-family: 'DM Sans', sans-serif;
+        width: 90%;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    div.Info_Empresa{
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:baseline;
+        align-items:center;
+    } div.Info_Empresa p{
+        font-family: 'Raleway', sans-serif;
+        font-size: 13PX;
+        padding-top: 0;
+        padding-bottom: 0;
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }a.Direccion{
+        text-decoration: none;
+        color: black;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+    }
+    a.Direccion:hover{
+        text-decoration: none;
+        color: #b9535e;
+        font-family: 'Raleway', sans-serif;
+        font-size: 15px;
+    }
+
+    img.RedQuetzal:hover{
+        width: 40px;
+        
+    }
+
+    /*Anterior*/
+    div.Trabajo_Anterior{
+        width: 90%;
+        margin: auto;
+    }div.Trabajo_Anterior_Encabezado{
+        display: flex;
+    }
+        div.PuestoAnterior{
+            background-color: #91A8D0;
+            border-radius: 10px 10px 0 0;
+            padding: 5px;
+            width: 60%;
+            margin: auto;
+            margin-bottom: 0;
+            }div.PuestoAnterior p{
+                width: 90%;
+                margin: auto;
+                font-family: 'DM Sans', sans-serif;
+                color: white;
+                font-size: 12px;
+                text-align: justify;
+            }
+        div.FechaAnterior{
+            width: 40%;
+            margin: auto;
+            background-color: none;
+            padding: 5px;
+            margin-bottom: 0
+            }div.FechaAnterior p{
+                padding: 0;
+                margin: 0;
+                color: black;
+                font-family: 'DM Sans', sans-serif;
+                font-size: 12px;
+                text-align: right;
+            }
+    
+        div.Trabajo_Anterior_Info{
+            border: 1px solid #91A8D0;
+            border-radius: 0 10px 10px 10px;
+            padding: 10px;
+        }div.Trabajo_Anterior_Info p{
+            font-family: 'DM Sans', sans-serif;
+            width: 90%;
+            margin: auto;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+        div.Info_EmpresaAnterior{
+            width: 90%;
+            margin: auto;
+            margin-top: 5px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:baseline;
+            align-items:center;
+        } div.Info_EmpresaAnterior p{
+            font-family: 'Raleway', sans-serif;
+            font-size: 13PX;
+            padding-top: 0;
+            padding-bottom: 0;
+            flex-basis: 100%;
+            margin-bottom: 10px;
+        }a.Direccion_TA{
+            text-decoration: none;
+            color: black;
+            font-family: 'Raleway', sans-serif;
+            font-size: 13px;
+        }
+        a.Direccion_TA:hover{
+            color: #4b6fad;
+            font-size: 15px;
+        }
+
+/*FOOTER --------------------------------------------------------------------------------*/
+div.footer{
+    width: 100%;
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.023), rgba(0, 0, 0, 0.499));
+}
+div.Renglon1{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+}
+
+div.Contenedor1_Footer{
+    width: 50%;
+    justify-content: left; /* Centra horizontalmente */
+    align-items: center;
+    }img.LogoFooter{
+        width: 140px;
+    }img.LogoFooter:hover{
+        scale: 1.1;
+    }
+
+div.Contenedor2_Footer{
+    padding-top: 15px;
+    width: 50%;
+    display: flex;
+    }div.Contactos1{
+        width: 70%;
+        margin-right: 10%;
+        display: flex;
+        justify-content: right;
+        align-items:baseline;
+    }img.Iconos_Contactos{
+        width: 40px;
+        padding-left: 10px;
+       
+    }
+
+    div.Contactos2{
+        width: 20%;
+        display: flex;
+        justify-content: right;
+        align-items:baseline;
+    }div.Contenedor_Hablemos{
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }a.Hablemos{
+        border: 2px solid white;
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Cabin', sans-serif;
+        font-size: 100%;
+    }a.Hablemos:hover{
+        background: #ff7582;
+        padding: 5px 20px 5px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: white;
+        font-family: 'Cabin', sans-serif;
+        font-size: 100%;
+        border: none;
+        scale: 1.1;
+    }
+
+    .footer-copyright{
+        width: 100%;
+        margin: none;
+        min-height: 100%;
+        margin: 0;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .footer-copyright p {
+      color: #ffffff;
+      font-size: 14px;
+      display: block;
+      background-color: rgba(0, 0, 0, 0.499);
+      width: 100%;
+      margin: 0;
+        padding: 10px;
+        text-align: center;
+        font-family: 'Cabin', sans-serif;
+    }
+
+/* DISEÑOS QUETZAL HAMING ----------------------- */
+/* QUETZAL ------------------------*/
+
+.layout_Quetzal {
+    width: 85%;
+    margin: auto;
+    color: none;
+    background: none;
+  
+    display: grid;
+    grid:
+      "Quetzal1 Quetzal2 Quetzal3 Quetzal4" 1fr
+      "Quetzal5 Quetzal6 Quetzal7 Quetzal8" 1fr
+      "Quetzal9 Quetzal10 Quetzal11 Quetzal12" 1fr
+      / 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row dense;
+    
+  }
+  
+  .Quetzal1 { grid-area: Quetzal1; }
+  .Quetzal2 { grid-area: Quetzal2; }
+  .Quetzal3 { grid-area: Quetzal3; }
+  .Quetzal4 { grid-area: Quetzal4; }
+  .Quetzal5 { grid-area: Quetzal5; }
+  .Quetzal6 { grid-area: Quetzal6; }
+  .Quetzal7 { grid-area: Quetzal7; }
+  .Quetzal8 { grid-area: Quetzal8; }
+  .Quetzal9 { grid-area: Quetzal9; }
+  .Quetzal10 { grid-area: Quetzal10; }
+  .Quetzal11 { grid-area: Quetzal11; }
+  .Quetzal12 { grid-area: Quetzal12; }
+
+  img.EditQuetzal{
+    width: 100%;
+    border-radius: 20px;
+  }
+
+
+/* PORTADAS ---------------------- */
+  .layout_Portadas {
+    width: 85%;
+    margin: auto;
+  
+    display: grid;
+    grid:
+      "Portada1 Portada2 Portada3 Portada4 Portada5" 1fr
+      / 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row dense;
+  }
+  
+  .Portada1 { grid-area: Portada1; }
+  .Portada2 { grid-area: Portada2; }
+  .Portada3 { grid-area: Portada3; }
+  .Portada4 { grid-area: Portada4; }
+  .Portada5 { grid-area: Portada5; }
+
+
+  img.EditPortada{
+    width: 90%;
+    border-radius: 20px;
+  }
+
+
+/* Trabajos ------------------------- */
+  .layout_Trabajos {
+    width: 85%;
+    margin: auto;
+  
+    display: grid;
+    grid:
+      "EditTrabajo1 EditTrabajo2" 1fr
+      / 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row dense;
+  }
+  
+  .EditTrabajo1 { grid-area: Portada1; }
+  .EditTrabajo1 { grid-area: Portada2; }
+
+
+div.Trabajo1, div.Trabajo2{
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+    }
+    img.EditTrabajo{
+        width: 50%;
+        margin: auto;
+        border-radius: 20px;
+    }
+
+
+/*Edits Libres*/
+.layout_EditLibre {
+    width: 85%;
+    margin: auto;
+
+    display: grid;
+    grid:
+      "Edit1 Edit2 Edit3 Edit4 Edit5" 1fr
+      "Edit6 Edit7 Edit8 Edit9 Edit10" 1fr
+      "Edit11 Edit12 Edit13 Edit14 Edit15" 1fr
+      "Edit16 Edit17 Edit18 Edit19 Edit20" 1fr
+      "Edit21 Edit22 Edit23 . ." 1fr
+      / 1fr 1fr 1fr 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row dense;
+  }
+
+  
+  .Edit1 { grid-area: Edit1; }
+  .Edit2 { grid-area: Edit2; }
+  .Edit3 { grid-area: Edit3; }
+  .Edit4 { grid-area: Edit4; }
+  .Edit5 { grid-area: Edit5; }
+  .Edit6 { grid-area: Edit6; }
+  .Edit7 { grid-area: Edit7; }
+  .Edit8 { grid-area: Edit8; }
+  .Edit9 { grid-area: Edit9; }
+  .Edit10 { grid-area: Edit10; }
+  .Edit11 { grid-area: Edit11; }
+  .Edit12 { grid-area: Edit12; }
+  .Edit13 { grid-area: Edit13; }
+  .Edit14 { grid-area: Edit14; }
+  .Edit15 { grid-area: Edit15; }
+  .Edit16 { grid-area: Edit16; }
+  .Edit17 { grid-area: Edit17; }
+  .Edit18 { grid-area: Edit18; }
+  .Edit19 { grid-area: Edit19; }
+  .Edit20 { grid-area: Edit20; }
+  .Edit21 { grid-area: Edit21; }
+  .Edit22 { grid-area: Edit22; }
+  .Edit23 { grid-area: Edit23; }
+
+  .EditLibre{
+    width: 100%;
+    border-radius: 20px;
+  }
+    
+
+
+/* ///////////// PROYECTOS ////////////////////////////////////////////////////////////////////////////777777777*/
+div.Menu_Proyectos{
+    width: 100%;
+    display: flex;
+}
+
+/* .... Pestaña en diseños ......................................................*/
+/*Boton diseños*/
+div.Seccion_Diseño{
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    }div.Boton{
+        width: 30%;
+        margin-left: 60%;
+        overflow: hidden;
+        background: #ff7582;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }div.Contenedor1{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }img.IconosProyectos{
+        width: 20px;
+        padding-left: 10px;
+    }
+    div.Boton_Contenedor2{
+        width: 80%;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }a.Boton_Proyectos{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;        
+        font-family: 'Cabin', sans-serif;
+    }
+
+/*Boton Ssitemas*/
+div.Seccion_Sistemas{
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }div.Boton_Sistemas{
+        width: 30%;
+        margin-right:  60%;
+        margin-left: 10%;
+        overflow: hidden;
+        border: 2px solid #ff7582;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    div.Boton_Sistemas:hover{
+        width: 30%;
+        margin-right:  60%;
+        margin-left: 10%;
+        overflow: hidden;
+        border: 2px solid #ff7582;
+        background: #ff7582;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        scale: 1.1;
+    }
+        div.Boton_Sistemas_Contenedor1{
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }img.IconosProyectos{
+            width: 20px;
+            padding-left: 10px;
+        }
+        div.Boton_Sistemas_Contenedor2{
+            width: 80%;
+            float: right;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }a.Boton_Sistemas{
+            text-decoration: none;
+            color: #ff7582;
+            font-size: 14px;        
+            font-family: 'Cabin', sans-serif;
+        }a.Boton_Sistemas:hover{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;        
+            font-family: 'Cabin', sans-serif;
+            scale: 1.1;
+        }
+        
+
+/*Pestaña en Sistemas ....................................................*/
+/*Boton diseños*/
+div.Seccion_DiseñoS{
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+    }div.BotonS{
+        width: 30%;
+        margin-left: 60%;
+        overflow: hidden;
+        border: 2px solid #ff7582;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        div.BotonS:hover{
+            width: 30%;
+        margin-left: 60%;
+        overflow: hidden;
+        border: 2px solid #ff7582;
+        background: #ff7582;
+        color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+            scale: 1.1;
+        }
+    div.Contenedor1S{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }img.IconosProyectos{
+        width: 20px;
+        padding-left: 10px;
+    }
+    div.Boton_Contenedor2S{
+        width: 80%;
+        float: right;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }a.Boton_ProyectosS{
+        text-decoration: none;
+        color: #ff7582;
+        font-size: 14px;        
+        font-family: 'Cabin', sans-serif;
+    }a.Boton_Proyectos:hover{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;        
+        font-family: 'Cabin', sans-serif;
+        scale: 1.1;
+    }
+
+/*Boton Ssitemas*/
+div.Seccion_Sistemas_SISTEMAS{
+    width: 50%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }div.Boton_Sistemas_SISTEMAS{
+        width: 30%;
+        margin-right:  60%;
+        margin-left: 10%;
+        overflow: hidden;
+        background: #ff7582;
+        
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        div.Boton_Sistemas_Contenedor1_SISTEMAS{
+            width: 20%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }img.IconosProyectos{
+            width: 20px;
+            padding-left: 10px;
+        }
+        div.Boton_Sistemas_Contenedor2_SISTEMAS{
+            width: 80%;
+            float: right;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }a.Boton_Sistemas_SISTEMAS{
+            text-decoration: none;
+            color: white;
+            font-size: 14px;        
+            font-family: 'Cabin', sans-serif;
+        }
+
+/*PROYECTOS ESCOLARES*/
+/* Trabajos ------------------------- */
+
+div.Contenedor_Proyecto{
+    width: 90%;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.503);
+}
+
+div.layout_Proyectos {
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 20px;
+  
+    display: grid;
+    grid:
+      "Proyecto1_1 Proyecto1_2 Proyecto1_3" 1fr
+      "Proyecto1_4 Proyecto1_5 Proyecto1_6" 1fr
+      "Proyecto1_7 Proyecto1_8 Proyecto1_9" 1fr
+      / 1fr 1fr 1fr;
+    gap: 8px;
+    grid-auto-flow: row dense;
+  }
+  
+  .Proyecto1_1 { grid-area: Proyecto1_1; }
+  .Proyecto1_2 { grid-area: Proyecto1_2; }
+  .Proyecto1_3 { grid-area: Proyecto1_3; }
+  .Proyecto1_4 { grid-area: Proyecto1_4; }
+  .Proyecto1_5 { grid-area: Proyecto1_5; }
+  .Proyecto1_6 { grid-area: Proyecto1_6; }
+  .Proyecto1_7 { grid-area: Proyecto1_7; }
+  .Proyecto1_8 { grid-area: Proyecto1_8; }
+
+    img.Proyecto1{
+        width: 100%;
+        margin: auto;
+        border-radius: 20px;
+    }
+
+    p.Nom_Proyecto{
+        padding: none;
+        margin: 0;
+        padding-bottom: 0;
+        padding-top: 30px;
+        padding-left: 60px;
+        font-size: 30px;
+        font-family: 'DM Sans', sans-serif;
+    }
+    p.Desc_Proyecto{
+        padding: none;
+        padding-left: 60px;
+        padding-top: 0;
+        margin-top: 0;
+        font-family: 'Raleway', sans-serif;
+        font-size: 13px;
+    }
+
+/* FORMULARIO /////////////////////////////////////////////////////////////////77777777*/
+header.Formulario{
+    width: 50%;
+    margin-top: 80px;
+    border-radius: 20px 20px 0 0;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+}
+
+
+p.Desc_Formulario{
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+
+section.Contenedor_Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #fbfafa;
+    background-position: center;
+    background-size: cover;
+    margin-top: 0;
+    padding-top: 0;
+    border-radius: 0;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border: 2px solid #ff7582;
+    background: #07070714;
+    border-radius: 20px;
+    
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -10px;
+color: #c95864;
+}
+
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: black;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #ff7582;
+    font-size: 1.2em;
+    top: 20px;
+}
+.forget{
+    margin: -15px 0 15px ;
+    font-size: .9em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;  
+}
+
+.forget label input{
+    margin-right: 3px;
+    
+}
+.forget label a{
+    color: #fff;
+    text-decoration: none;
+}
+.forget label a:hover{
+    text-decoration: underline;
+}
+
+div.Boton_Enviar{
+    width: 50%;
+    margin:auto;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 20px 20px;
+    padding-bottom: 30px;
+}
+button{
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(90deg,#91A8D0,#ff7582);;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 20px;
+    color: white;
+    
+}
+button:hover{
+    width: 50%;
+    margin: auto;
+    border-radius: 20px;
+    background: linear-gradient(90deg,#91A8D0,#ff7582);;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 20px;
+    scale: 1.1;
+}
+
+textarea{
+    background: transparent;
+    color: black;
+    border-radius: 20px;
+    outline: none;
+
+}
+textarea:hover{
+    outline: none;
+}
+
+/*FOOTER FORMULARIO*/
+
+div.ContenedorFooterFormulario{
+    width: 100%;
+    display: flex;
+}
+
+div.Contenedor_Doble1LogoFooter{
+    width: 50%;
+    margin: auto;
+    
+}
+
+div.Contenedor_Doble2LogoFooter{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.BotonEnviar{
+        width: 100%;
+        margin: auto;
+}a.BotonEnviar{
+       width: 100%;
+        margin: auto;
+}
+
+
+

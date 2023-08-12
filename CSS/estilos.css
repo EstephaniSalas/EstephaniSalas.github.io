@@ -1,0 +1,727 @@
+/*FONTS
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Urbanist', sans-serif;
+    
+    background: linear-gradient(90deg,#91A8D0,#ff7582);
+     background: linear-gradient(90deg,#0d0551,#41BFFF);*/
+    @import url('https://fonts.googleapis.com/css2?family=Anton&family=Cabin&family=Merriweather+Sans:wght@800&family=Raleway&family=Urbanist:wght@700&display=swap');
+
+html,body, footer {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(90deg,#4d5664,#8c4b52);
+    scroll-behavior: smooth;
+} 
+
+
+/*------------------------------------------------------------------------------------------------------------------------------ */
+header{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 15px;
+   /* background: linear-gradient(90deg,#91A8D0,#ff7582);*/
+    padding-bottom: none;
+    margin: none;
+}
+
+a .Logo{
+    width: 120px;
+    margin-left: 30%;
+    padding: 10px;
+} 
+
+img.Logo{
+    width: 120px;
+    margin-left: 30%;
+    padding: 10px;
+}
+
+img.Logo:hover{
+    scale: 1.1;
+}
+
+
+nav div.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: none;
+    margin: none;
+    position: sticky;
+    top: 0;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin-right: 80px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+ul li:hover{
+    background: #ff7582;
+    padding: none;
+    margin: none;
+    display: inline-block;
+    padding: 5px 20px 5px 20px;
+    margin-right: 80px;
+    border: none;
+}
+
+
+a.Menu{
+    color: white;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+    font-size: 90%;
+}
+
+/* Body ------------------------------------------------------------------------------------------------------------------*/
+
+/*Portada*/
+div.Portada{
+ width: 90%;
+ margin: auto;
+ margin-top: 10px;
+ background: linear-gradient(90deg,rgb(145, 168, 208),rgb(255, 117, 130));
+ border-radius: 50px 50px 0 0;
+ display: flex;
+ padding: none;
+ position: relative;
+ z-index: 2;
+ box-shadow: 0px -30px 70px -50px #343434;
+ margin-bottom: 0;
+}
+
+
+
+div.Yo{
+    width: 50%;
+    color: white;
+    align-items:start;
+    justify-content: center;
+    text-align: left;
+    padding-top: 7%;
+    padding-left: 12%;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.403);
+}
+
+.cajas_Yo{
+    padding: none;
+    border: none;
+    display: block;
+    margin: none;
+    float: left;
+
+}
+
+.Saludo{
+    font-family: 'Raleway', sans-serif;
+    font-style: bold;
+    color: white;
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.Estephani{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    font-size: 90px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    letter-spacing: -4px; /*Espacio entre letras. */
+    display: flex;
+}
+
+.Salas{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: white;
+    font-size: 90px;
+    padding: 0px 0px;
+    margin: 0px 0px;
+    letter-spacing: -2px; /*Espacio entre letras. */
+    position: relative;
+    z-index: 1;
+    top: -30px;
+}
+
+.Descripcion{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 16px;
+    position: relative;
+    z-index: 1;
+    top: -50px;
+}
+
+
+div.Foto{
+    width: 50%;
+    margin-bottom: none;
+    padding-top: 20px ;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+}div.Foto:hover{
+    scale: 1.1;
+}
+
+
+.Fotomia{
+    width: 70%;
+    padding-right: 12%;
+}
+
+
+
+/*Portafolio*/
+section.Portafolio{
+    position: relative;
+    z-index: 1;
+    top: -35px;
+} 
+
+   div.Contenido{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding-bottom: 50px;
+    background: linear-gradient(90deg,#91A8D0,#ff7582);
+    box-shadow: 1px 1px 50px -10px #343434;
+    padding: none;
+    position: relative;
+    z-index: 1;
+    top: 30px;
+    border-radius: 0 0 50px 50px;
+}
+
+div.Bienvenida{
+    width: 80%;
+    margin-top: 0;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    text-shadow: -1px 1px 1px rgba(0, 0, 0, 0.403);
+    position: relative;
+    z-index: 1;
+    top: -30px;
+}samp{
+    font-family: 'Raleway', sans-serif;
+    color: #6f2455;
+    text-shadow: -1px 1px 1px rgba(255, 255, 255, 0.403);
+}
+
+
+/*Secciones-------------------------------------------------------------------------------------------------------------------*/
+div.Secciones{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    display: flex;
+    justify-content:  center;
+}
+
+/* --- SOBRE MI -----------------------------*/
+a.SobreMi{
+    width: 30%;
+    margin: 10px;
+    background-color: #00000010;
+    border-radius: 20px;
+
+    flex: 1;
+    text-decoration: none;
+}
+
+div.ContenedorSobreMi1{
+    width: 100%;
+    display: flex;
+    margin-top: 2.5%;
+}
+div .SobreMiIMG{
+    width: 20%;
+    padding-right: none;
+    margin-left: 15%;
+}img.SobreMi{
+    padding-right: none;
+    margin: none;
+    width: 60px;
+}
+
+div.SobreMi{
+    display: flex;
+    float: right;
+    width: 60%;
+    margin: none;
+    margin-bottom: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: none;
+    color: white;
+}
+
+
+div.ContenedorSobreMiDesc{
+    width: 100%;
+    margin: none;
+    padding: none;
+    display: flex;
+    justify-content:  center;
+
+}
+
+div.SobreMiDesc{
+    width: 70%;
+    margin: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+a.SobreMi:hover{
+    flex:1.5;
+    background: linear-gradient(90deg,#BB73E0,#FF8DDB);
+    text-align: center;
+
+}
+
+/* --- PROYECTOS -----------------------------*/
+a.Proyectos{
+    width: 30%;
+    margin: 10px;
+    background-color: #00000010;
+    border-radius: 20px;
+
+    flex: 1;
+    text-decoration: none;
+}
+
+div.ContenedorProyectos1{
+    width: 100%;
+    display: flex;
+    margin-top: 2.5%;
+}
+div .ProyectosIMG{
+    width: 20%;
+    padding-right: none;
+    margin-left: 15%;
+}img.Proyectos{
+    padding-right: none;
+    margin: none;
+    width: 60px;
+}
+
+div.Proyectos{
+    display: flex;
+    float: right;
+    width: 60%;
+    margin: none;
+    margin-bottom: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: none;
+    color: white;
+}
+
+
+div.ContenedorProyectosDesc{
+    width: 100%;
+    margin: none;
+    padding: none;
+    display: flex;
+    justify-content:  center;
+
+}
+
+div.ProyectosDesc{
+    width: 70%;
+    margin: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+a.Proyectos:hover{
+    flex:1.5;
+    background: linear-gradient(90deg,#B4B5E9,#FF8DDB);
+    text-align: center;
+
+}
+
+/* --- PROYECTOS -----------------------------*/
+a.Proyectos{
+    width: 30%;
+    margin: 10px;
+    background-color: #00000010;
+    border-radius: 20px;
+
+    flex: 1;
+    text-decoration: none;
+}
+
+div.ContenedorProyectos1{
+    width: 100%;
+    display: flex;
+    margin-top: 2.5%;
+}
+div .ProyectosIMG{
+    width: 20%;
+    padding-right: none;
+    margin-left: 15%;
+}img.Proyectos{
+    padding-right: none;
+    margin: none;
+    width: 50px;
+}
+
+div.Proyectos{
+    display: flex;
+    float: right;
+    width: 60%;
+    margin: none;
+    margin-bottom: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: none;
+    color: white;
+}
+
+
+div.ContenedorProyectosDesc{
+    width: 100%;
+    margin: none;
+    padding: none;
+    display: flex;
+    justify-content:  center
+
+}
+
+div.ProyectosDesc{
+    width: 70%;
+    margin: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+a.Proyectos:hover{
+    flex:1.5;
+    background: linear-gradient(90deg,#BB73E0,#FF8DDB);
+    text-align: center;
+
+}
+
+/* --- TESTIMONIOS -----------------------------*/
+a.Testimonios{
+    width: 30%;
+    margin: 10px;
+    background-color: #00000010;
+    border-radius: 20px;
+
+    flex: 1;
+    text-decoration: none;
+}
+
+div.ContenedorTestimonios1{
+    width: 100%;
+    display: flex;
+    margin-top: 2.5%;
+}
+div .TestimoniosIMG{
+    width: 20%;
+    padding-right: none;
+    margin-left: 15%;
+}img.Testimonios{
+    padding-right: none;
+    margin: none;
+    width: 50px;
+}
+
+div.Testimonios{
+    display: flex;
+    float: right;
+    width: 60%;
+    margin: none;
+    margin-bottom: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    margin: none;
+    color: white;
+}
+
+
+div.ContenedorTestimoniosDesc{
+    width: 100%;
+    margin: none;
+    padding: none;
+    display: flex;
+    justify-content:  center
+
+}
+
+div.TestimoniosDesc{
+    width: 70%;
+    margin: none;
+    display: inline-block;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    text-align: justify;
+}
+
+a.Testimonios:hover{
+    flex:1.5;
+    background: linear-gradient(90deg,#BB73E0,#FF8DDB);
+    text-align: center;
+
+}
+
+
+/* FOOTER -----------------------------------------------------------------------*/ 
+div.Contacto{
+    clear:both;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(1800deg, #00000076, #00000000);
+    padding-bottom: 0;
+    margin-bottom: none;
+   
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: none;
+  padding-bottom: none;
+}
+
+/* Estilos de la sección izquierda del footer ---------- */
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+/*Logo */
+.footer-logo img:hover {
+  width: 100px; 
+  scale: 1.1;
+}
+
+/* Estilos de la sección derecha del footer ----------*/
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Redes sociales */
+.footer-social-icons {
+  margin-right: 10px;
+}
+
+.footer-social-icons .social-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social-icons img {
+  width: 30px; 
+}
+
+/* Estilos del botón de correo ------------------------ */
+.footer-contact .Hablemos  {
+  width: 30px; 
+}
+
+a.Hablemos{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:  13px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+}a.Hablemos:hover{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    background-color: #ff7582;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+/* Estilos del texto de copyright */
+.footer-copyright{
+    width: 100%;
+    margin: none;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer-copyright p {
+  color: #ffffff;
+  font-size: 14px;
+  display: block;
+  background-color: #00000076;
+  width: 100%;
+  margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+/*footer -----------------------------------------------------------------------*/ 
+div.Contacto{
+    clear:both;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(1800deg, #00000076, #00000000);
+    padding-bottom: 0;
+    margin-bottom: none;
+   
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  margin-bottom: none;
+  padding-bottom: none;
+}
+
+/* Estilos de la sección izquierda del footer ---------- */
+.footer-left {
+  flex: 1;
+  text-align: left;
+}
+
+/*Logo */
+.footer-logo img {
+  width: 100px; 
+  scale: 1.1;
+}
+
+/* Estilos de la sección derecha del footer ----------*/
+.footer-right {
+  display: flex;
+  align-items: center;
+}
+
+/* Redes sociales */
+.footer-social-icons {
+  margin-right: 10px;
+}
+
+.footer-social-icons .social-icon {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.footer-social-icons img {
+  width: 30px; 
+}
+
+/* Estilos del botón de correo ------------------------ */
+.footer-contact .Hablemos  {
+  width: 30px; 
+}
+
+a.Hablemos{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size:  13px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+}a.Hablemos:hover{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 13px;
+    background-color: #ff7582;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+/* Estilos del texto de copyright */
+.footer-copyright{
+    width: 100%;
+    margin: none;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.footer-copyright p {
+  color: #ffffff;
+  font-size: 18px;
+  display: block;
+  background-color: #00000076;
+  width: 100%;
+  margin: 0;
+    padding: 10px;
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+/* /////// FORMULARIO ///////////////////////////////////////////////////////////////////////////7777*/
+div.Contenedor_Formulario{
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    background: white;
+}
+
+
+
+
+
